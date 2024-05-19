@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/b86ae23fda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a class="logo">
+                    <img src="./logo.png" width="50" height="50" />
+                    <h1>Clinic</h1>
+                </a>
+                <!-- Додати посилання на гітхаб опису проекту -->
+                <a href="">Посилання на опис предметної галузі: Моделювання запису до лікаря (E-health)</a>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <ol>
+                <li><i class="fa-solid fa-heart-circle-bolt"></i>
+                    Кардіолог: Це лікар, який спеціалізується на діагностиці, лікуванні та профілактиці захворювань
+                    серця та судин.</li>
+                <li><i class="fa-solid fa-tooth"></i>
+                    Дантіст: Це фахівець, який займається лікуванням та доглядом за зубами, ясенами та порожниною рота.
+                </li>
+                <li><i class="fa-solid fa-ear-deaf"></i>
+                    ЛОР (Лікар отоларинголог): Це спеціаліст, який діагностує та лікує захворювання вух, горла та носа,
+                    а також пов'язані з ними порушення.</li>
+                <li><img width="40" height="40"
+                        src="data:image/png;base64,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">
+                    Ендокринолог: Це лікар, який спеціалізується на діагностиці та лікуванні різноманітних ендокринних
+                    захворювань, таких як діабет, захворювання щитовидної залози тощо.</li>
+                <li><img width="40" height="40"
+                        src="data:image/png;base64,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">
+                    Уролог: Це медичний фахівець, який діагностує та лікує захворювання сечовивідних шляхів та чоловічих
+                    статевих органів.</li>
+                <li><img width="40" height="40"
+                        src="data:image/png;base64,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">
+                    Педіатр: Це лікар, який займається медичними потребами дітей, від народження до дорослості.</li>
+                <li><img width="40" height="40"
+                        src="data:image/png;base64,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">
+                    Хірург: Це медичний фахівець, який здійснює хірургічні втручання для лікування та виправлення різних
+                    захворювань та ушкоджень.</li>
+                <li><img width="40" height="40"
+                        src="data:image/png;base64,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" />
+                    Терапевт: Це лікар, який спеціалізується на загальній медицині та надає первинну медичну допомогу,
+                    включаючи діагностику, лікування та профілактику різних захворювань.</li>
+            </ol>
+            <ul class="list">
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+            </ul>
+            <form action="" id="form">
+                <h2>Реєстрація</h2>
+                <div class="form-container">
+                    <div>
+                        <label class="label" for="firstName">
+                            <span>Ім'я</span>
+                            <input type="text" placeholder="Ім'я" id="firstName" name="firstName">
+                        </label>
+                        <label class="label" for="lastName">
+                            <span>Прізвище</span>
+                            <input type="text" placeholder="Прізвище" id="lastName" name="lastName">
+                        </label>
+                        <label class="label" for="email" name="password">
+                            <span>Пошта</span>
+                            <input type="email" placeholder="Пошта" id="email" name="email">
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label" for="doctors" name="doctors">
+                            Лікарі
+                            <select id="doctors">
+                                <option value="1"> Кардіолог</option>
+                                <option value="2"> Дантіст</option>
+                                <option value="3"> Лор</option>
+                                <option value="4"> Уролог</option>
+                                <option value="5"> Ендокринолог</option>
+                                <option value="6"> Педіатр</option>
+                                <option value="7"> Хірург</option>
+                                <option value="8"> Терапевт</option>
+                            </select>
+                        </label>
+                        <label class="label" for="password">
+                            <span>Пароль</span>
+                            <input type="password" placeholder="Пароль" id="password" name="password">
+                            <i class="fas fa-eye icon-password" id="password"></i>
+                            <i class="fas fa-eye-slash icon-password hidden" id="password-hidden"></i>
+                        </label>
+                        <label class="label" for="confirmPassword">
+                            <span>Підтвердження пароля</span>
+                            <input type="password" placeholder="Пароль" id="confirmPassword" name="confirmPassword">
+                            <i class="fas fa-eye icon-password" id="password"></i>
+                            <i class="fas fa-eye-slash icon-password hidden" id="password-hidden"></i>
+                        </label>
+                    </div>
+                </div>
+                <input class="checkbox" id="checkbox" type="checkbox" checked="checked" name="checbox">
+                <label class="agree" for="checkbox">
+                    Погоджуєтесь з<a href="#" class="form-terms"> Умовами</a></label>
+                <button type="submit">Підтвердження</button>
+            </form>
+            
+            <table border="1">
+                <caption>Лікарі</caption>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Прізвище</th>
+                        <th>Ім'я</th>
+                        <th>Спеціальність</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Петров</td>
+                        <td>Петро</td>
+                        <td>Терапевт</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Петров</td>
+                        <td>Петро</td>
+                        <td>Кардіолог</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Петров</td>
+                        <td>Петро</td>
+                        <td>Педіатр</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Петров</td>
+                        <td>Петро</td>
+                        <td>ЛОР</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <nav class="footer-nav">
+                <p>&copy; All rigth 2024</p>
+                <ul>
+                    <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

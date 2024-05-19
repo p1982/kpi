@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside{
+    padding: 10px;
+    max-width: 350px;
+}
+
+.centered-content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tabs-title {
+    padding: 20px;
+    background-color: #23201D;
+    color: #937341;
+    cursor: pointer;
+}
+
+.tabs-title.active {
+    background-color: #937341;
+    color: #23201D;
+}

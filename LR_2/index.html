@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a class="logo">
+                    <img src="./logo.png" width="50" height="50" />
+                    <h1>Clinic</h1>
+                </a>
+                <!-- Додати посилання на гітхаб опису проекту -->
+                <a href="">Посилання на опис предметної галузі: Моделювання запису до лікаря (E-health)</a>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form action="" id="form">
+                <h2>Реєстрація</h2>
+                <label class="label" for="firstName">
+                    <span>Ім'я</span>
+                    <input type="text" placeholder="Ім'я" id="firstName" name="firstName">
+                </label>
+                <label class="label" for="lastName">
+                    <span>Прізвище</span>
+                    <input type="text" placeholder="Прізвище" id="lastName" name="lastName">
+                </label>
+                <label class="label" for="email" name="password">
+                    <span>Пошта</span>
+                    <input type="email" placeholder="Пошта" id="email" name="email">
+                </label>
+                <label class="label" for="doctors" name="doctors">
+                    Лікарі
+                    <select id="doctors">
+                        <option value="1"> Кардіолог</option>
+                        <option value="2"> Дантіст</option>
+                        <option value="3"> Лор</option>
+                        <option value="4"> Уролог</option>
+                        <option value="5"> Ендокринолог</option>
+                        <option value="6"> Педіатр</option>
+                        <option value="7"> Хірург</option>
+                        <option value="8"> Терапевт</option>
+                    </select>
+                </label>
+                <label class="label" for="password">
+                    <span>Пароль</span>
+                    <input type="password" placeholder="Пароль" id="password" name="password">
+                    <i class="fas fa-eye icon-password" id="password"></i>
+                    <i class="fas fa-eye-slash icon-password hidden" id="password-hidden"></i>
+                </label>
+                <label class="label" for="confirmPassword">
+                    <span>Підтвердження пароля</span>
+                    <input type="password" placeholder="Пароль" id="confirmPassword" name="confirmPassword">
+                    <i class="fas fa-eye icon-password" id="password"></i>
+                    <i class="fas fa-eye-slash icon-password hidden" id="password-hidden"></i>
+                </label>
+                <input class="checkbox" id="checkbox" type="checkbox" checked="checked" name="checbox">
+                <label  class="agree" for="checkbox">
+                    Погоджуєтесь з<a href="#" class="form-terms"> Умовами</a></label>
+                <button type="submit">Підтвердження</button>
+            </form>
+            <ol>
+                <li>Кардіолог</li>
+                <li>Дантіст</li>
+                <li>Лор</li>
+                <li>Уролог</li>
+                <li>Ендокринолог</li>
+                <li>Педіатр</li>
+                <li>Хірург</li>
+                <li>Терапевт</li>
+            </ol>
+            <ul class="list">
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+                <li>
+                    <h4>ПІБ: Іваненко Іван Іванович</h4>
+                    <p>Дата візиту: 05.02.2024</p>
+                    <p>Пріоритетність: висока</p>
+                    <p>Лікар: Терапевт</p>
+                    <p>Опис: Опис візиту</p>
+                </li>
+            </ul>
+
+            <table border="1">
+                <caption>Лікарі</caption>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Прізвище</th>
+                        <th>Ім'я</th>
+                        <th>Спеціальність</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Петров</td>
+                        <td>Петро</td>
+                        <td>Терапевт</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Петров</td>
+                        <td>Петро</td>
+                        <td>Кардіолог</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Петров</td>
+                        <td>Петро</td>
+                        <td>Педіатр</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Петров</td>
+                        <td>Петро</td>
+                        <td>ЛОР</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
