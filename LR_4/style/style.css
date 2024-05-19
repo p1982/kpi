@@ -1,0 +1,388 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 23px;
+    position: relative;
+}
+
+.head__menu {
+    display: none;
+}
+
+.head__menu--mobile {
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    left: 100%;
+    position: absolute;
+    min-width: 180px;
+    transform: translateX(-100%);
+}
+
+.head__menu--mobile~.head__nav-btn {
+    background-image: url('../img/menu-btn-op.svg')
+}
+
+.head__link {
+    font-size: 11px;
+    line-height: 22px;
+    color: #4E4E4E;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    background-color: #F5F5F5;
+    padding: 4.5px 13px;
+}
+
+.head__link:hover {
+    background-color: #E5E5E5;
+}
+
+.head__link--active {
+    color: #57A4A4;
+}
+
+.head__nav-btn {
+    border: none;
+    background-image: url('../img/menu-btn-cl.svg');
+    width: 44px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url('../img/intro-img\ 1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 150px;
+    margin-bottom: 38px;
+}
+
+.blog {
+    margin-bottom: 40px;
+}
+
+.blog__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #4E4E4E;
+    text-transform: uppercase;
+    padding-bottom: 23px;
+}
+
+.blog__post {
+    margin-bottom: 28.5px;
+}
+
+.blog__post:last-child {
+    display: none;
+}
+
+.blog__subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4E4E4E;
+}
+
+.blog__comment {
+    font-size: 11px;
+    line-height: 20px;
+    color: #7C7C7C;
+}
+
+.blog__text {
+    display: none;
+    font-size: 14px;
+    line-height: 26px;
+    color: #4E4E4E;
+}
+
+.insta {
+    padding-top: 38px;
+    padding-bottom: 42px;
+}
+
+.insta__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.insta__link {
+    display: none;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.insta__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #4E4E4E;
+}
+
+.insta__link {
+    color: #4E4E4E;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.insta__container {
+    display: flex;
+    gap: 10px;
+}
+
+.insta__img {
+    width: 300px;
+}
+
+.insta__img:first-child {
+    display: block;
+}
+.hidden, .hidden-tab{
+    display: none;
+}
+
+.foot {
+    padding-top: 38px;
+    padding-bottom: 47px;
+    background-color: black;
+    text-align: center;
+}
+
+.foot__title {
+    color: #FEFEFE;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.foot__text {
+    font-size: 12px;
+    line-height: 20px;
+    color: #B9B9B9;
+    margin-bottom: 26px;
+    padding: 0 35px;
+    white-space: pre-line;
+
+    span {
+        display: none;
+    }
+}
+
+.foot__links {
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.foot__contacts {
+    font-size: 14px;
+    line-height: 24px;
+    color: #B9B9B9;
+    white-space: pre-line;
+}
+
+@media (min-width: 481px) {
+    .blog {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blog__title {
+        font-size: 16px;
+    }
+
+    .blog__post {
+        display: flex;
+    }
+
+    .blog__post:last-child {
+        display: flex;
+    }
+
+    .blog__subtitle {
+        font-size: 16px;
+    }
+
+    .blog__comment {
+        font-size: 12px;
+    }
+
+    .blog__content {
+        padding-left: 20px;
+    }
+
+    .blog__text {
+        display: block;
+    }
+
+    .insta__constolrs {
+        margin-bottom: 35px;
+    }
+
+    .insta__link {
+        display: block;
+    }
+
+    .insta__title {
+        font-size: 16px;
+    }
+
+    .hidden{
+        display: block;
+    }
+
+    .insta__img {
+        max-width: 230px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .head {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        max-width: 768px * 0.8;
+        justify-content: space-between;
+    }
+
+    .head__menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .head__link {
+        padding: 41px 0;
+        background-color: transparent;
+    }
+
+    .head__link:hover {
+        background-color: transparent;
+    }
+
+    .head__nav-btn {
+        display: none;
+    }
+
+    .head__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+    }
+
+    .hero {
+        min-height: 360px;
+        min-width: 768px;
+        margin-bottom: 56px;
+    }
+
+    .blog {
+        max-width: 768px;
+    }
+
+    .insta {
+        background-color: #F7F7F7;
+        padding: 47px 0;
+    }
+
+    .insta__wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 768px;
+    }
+
+    .insta__img:nth-child(1n):not(:last-child) {
+        display: block;
+        width: 250px;
+    }
+
+    .foot {
+        padding: 57px 0;
+    }
+
+    .foot__text {
+        span {
+            display: inline;
+        }
+    }
+
+    .foot__contacts {
+        span {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .head {
+        max-width: 710px;
+    }
+
+    .hero {
+        max-width: 1200px;
+    }
+
+    .blog {
+        max-width: 1200px;
+    }
+
+    .blog__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .blog__post {
+        max-width: 1200px;
+    }
+
+    .insta__wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+    }
+
+    .insta__img {
+        width: 285px !important;
+    }
+
+    .insta__img:last-child {
+        display: block;
+    }
+}
