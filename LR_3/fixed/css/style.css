@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+
+/*HEADER*/
+.header {
+    padding-top: 31px;
+}
+
+.header-logo {
+    text-decoration: none;
+    display: inline-block;
+    margin: 28px 0;
+    color: black;
+    font-size: 80px;
+}
+
+.header-logo-blue {
+    text-decoration: none;
+    color: #4BCAFF;
+    font-size: 80px;
+}
+
+/*NAVBAR*/
+.navbar-top {
+    background-color: #35444F;
+    padding: 23px 0;
+    text-align: center;
+}
+
+.navbar-menu-item-top {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar-menu-link-top {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 20px 20px;
+    transition: 1s;
+}
+
+.navbar-menu-link-top:hover {
+    text-decoration: none;
+    background-color: #222F3A;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+/*MAIN*/
+.main {
+    margin-top: 20px;
+}
+
+.sidebar-menu {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.side-menu-list {
+    border: 1px solid black;
+}
+
+.side-menu-item:hover {
+    background-color: #DBDBDB;
+}
+
+.side-menu-link {
+    display: block;
+    text-decoration: none;
+    color: #495863;
+    font-size: 30px;
+    transition: 1s;
+    padding: 15px 56px 14px 22px;
+}
+
+.side-menu-link:hover {
+    text-decoration: none;
+    color: black;
+    transform: translateX(20px);
+}
+
+.main-content {
+    display: inline-block;
+    width: 885px;
+    margin-left: 50px;
+}
+
+.img {
+    border: 1px solid black;
+    padding: 75px 250px;
+}
+
+.article {
+    padding: 10px;
+}
+
+.article-text {
+    font-size: 18px;
+    margin: 30px;
+    line-height: 1.8;
+}
+
+/*FOOTER*/
+.footer {
+    padding: 23px 0;
+}
+
+.footer-menu {
+    display: inline-block;
+}
+
+.footer-menu-item {
+    display: inline-block;
+    font-size: 28px;
+}
+
+.footer-menu-link {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.footer-menu-link:hover {
+    color: #3181A6;
+    text-decoration: none;
+    border-bottom: #3181A6 solid 1px;
+}
+
+.bg-footer {
+    background-color: #B4B7BA;
+}
+
+.copyright {
+    margin-left: 140px;
+    font-size: 24px;
+}
+

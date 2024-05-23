@@ -11,19 +11,23 @@ header {
     padding: 20px 0;
 }
 
+nav h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 30px;
+}
+
 header h1 {
     margin-bottom: 20px;
     text-align: center;
+    font-size: 30px;
+    line-height: 36px;
 }
 
 ul {
     list-style: none;
     padding-left: 0;
-}
-
-aside{
-    padding: 10px;
-    max-width: 350px;
 }
 
 .centered-content {
@@ -48,4 +52,99 @@ aside{
 .tabs-title.active {
     background-color: #937341;
     color: #23201D;
+}
+
+
+.main-wrapper{
+    display: none;
+}
+
+.main-wrapper.active{
+    display: flex;
+    gap: 100px;
+}
+
+.profile-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.profile-wrapper img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+main{
+    margin-bottom: 50px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.aside ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #23201D;
+    color: #937341;
+}
+
+.main-text:hover{
+    background-color: #564738;
+    color: #b57c21;
+}
+
+.main-text.active {
+    background-color: #937341;
+    color: #23201D;
+}
+
+.section{
+    display: none;
+    flex-direction: column;
+    gap:20px; 
+    align-items: center; 
+}
+
+.section.active{
+    display: flex;
+}
+
+.section-wrapper{
+    max-width: 700px;
+    width:100%;
+}
+
+.section img{
+    max-width: 500px;
+    width: 100%;
+}
+
+.section p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section ol{
+    list-style: decimal;
+}
+
+.section li{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section h2{
+    font-size: 28px;
+    line-height: 36px;
 }

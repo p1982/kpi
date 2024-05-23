@@ -62,7 +62,6 @@ class Client {
 const client = new Client("user123", "user@example.com");
 console.log("Login:", client.getLogin());
 console.log("Email:", client.getEmail());
-
 client.setLogin("newUser123");
 client.setEmail("newuser@example.com");
 

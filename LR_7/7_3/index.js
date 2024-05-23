@@ -10,11 +10,11 @@ toggleButton.addEventListener('click', () => {
         //встановлення типу пасворда
         inputField.type = 'password';
         //зміна тексту на кнопці
-        toggleButton.textContent = 'Приховати';
+        toggleButton.textContent = 'Розкрити';
     } else {
         //встановлення типу текста
         inputField.type = 'text'
         //зміна тексту на кнопці
-        toggleButton.textContent = 'Розкрити';
+        toggleButton.textContent = 'Приховати';
     }
 });
